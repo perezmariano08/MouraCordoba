@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import {motion} from "framer-motion"
+import { NavLink } from "react-router-dom";
 
-export const ButtonContainerStyled = styled(motion.a)`
+export const ButtonContainerStyled = styled.a`
     cursor: pointer;
     display: flex;
     align-items: center;

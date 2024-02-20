@@ -2,14 +2,14 @@ import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Benefits from './components/Benefits/Benefits'
 import Footer from './components/Footer/Footer'
-import Ubication from './components/Ubication/Ubication'
+import Services from './components/Services/Services'
 function App() {
 
   return (
     <>
       <Navbar/>
       <Hero/>
-      <Ubication/>
+      <Services/>
       <Benefits/>
       <Footer/>
     </>

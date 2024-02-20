@@ -11,15 +11,10 @@ const Navbar = () => {
                 <NavbarLogo href="https://mouracordoba.com">
                     <img src={LogoMoura} alt="Logo Moura"/>
                 </NavbarLogo>
-                <NavbarList>
-                    <li>Inicio</li>
-                    <li>Productos</li>
-                    <li>Servicios</li>
-                </NavbarList>
                 <NavbarAction>
-                    <Button>
+                    <Button target={"_blank"} href="https://walink.co/4c9274">
                         <FaWhatsapp/>
-                        ¡Llamanos!
+                        3516363001
                     </Button>
                 </NavbarAction>
             </NavbarWrapper>

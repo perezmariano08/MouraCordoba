@@ -4,16 +4,20 @@ import { ButtonContainerStyled } from './ButtonStyles'
 const Button = ({
         children, 
         background = "yellow",
-        color = 'blue'
+        color = 'blue',
+        href,
+        target,
     }) => {
     return (
         <ButtonContainerStyled
             background={background}
             color={color}
-            whileTap={{scale: .95}}
+            href={href}
+            target={target}
         >
             {children}
         </ButtonContainerStyled>
+
     )
 }
 
