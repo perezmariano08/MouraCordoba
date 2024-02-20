@@ -6,7 +6,7 @@ export const HeroContainerStyled = styled.div`
     align-items: center;
     width: 100%;
     background-color: var(--blue);
-    background-image: url('foto_hero.avif');
+    background-image: url('foto_hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
