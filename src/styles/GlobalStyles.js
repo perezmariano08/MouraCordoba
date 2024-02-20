@@ -37,7 +37,7 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         text-decoration: none;
         list-style-type: none;
-        font-family: 'Poppins', sans-serif;
+        font-family: Poppins;
         font-weight: 400;
         font-style: normal;
     }
