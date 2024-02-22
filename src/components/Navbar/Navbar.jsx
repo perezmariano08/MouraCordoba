@@ -7,7 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Navbar = () => {
     return (
         <NavbarContainerStyled>
-            <NavbarWrapper>
+            <NavbarWrapper className='wrapper'>
                 <NavbarLogo href="https://mouracordoba.com">
                     <img src={LogoMoura} alt="Logo Moura"/>
                 </NavbarLogo>

@@ -1,43 +1,41 @@
 import styled from "styled-components";
 
-export const HeroContainerStyled = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: var(--blue);
-    background-image: url('foto_hero.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+export const HeroContainerStyled = styled.section`
+    background: linear-gradient(9.1deg, #254CAF 3.49%, #000E28 92.66%);
     position: relative;
-    height: calc(100vh - 100px);
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #000;
-        opacity: .6;
+    min-height: calc(100vh - 80px);
+`
+
+export const HeroImageBackground = styled.div`
+    position: absolute;
+    inset: 0px;
+    z-index: 0;
+    background-image: url(hex_bg.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    mix-blend-mode: lighten;
+
+    @media (max-width: 968px) {
+        display: none;
     }
 `
 
-export const HeroWrapper = styled.section`
-    gap: 20px;
+export const HeroWrapper = styled.div`
+    gap: 35px;
     justify-content: center;
     align-items: center;
-    z-index: 2;
-    padding: 100px 0;
-
+    z-index: 1;
     img {
-        height: 200px;
+        width: 520px;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 968px) {
         flex-direction: column;
-        padding: 40px 30px;
+        gap: 50px;
+        img {
+            width: 400px;
+        }
     }
 `
 
@@ -47,6 +45,10 @@ export const HeroText = styled.div`
     flex-direction: column;
     gap: 20px;
     text-align: start;
+
+    h1 span {
+        color: var(--yellow);
+    }
 
     p span {
         font-weight: 500;

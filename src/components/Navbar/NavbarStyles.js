@@ -16,8 +16,10 @@ export const NavbarContainerStyled = styled.header`
     }
 `
 
-export const NavbarWrapper = styled.section`
-    height: 100%;
+export const NavbarWrapper = styled.div`
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 `
@@ -27,7 +29,7 @@ export const NavbarLogo = styled.a`
     align-items: center;
     height: 100%;
     img {
-        height: 40%;
+        height: 30px;
     }
 `
 

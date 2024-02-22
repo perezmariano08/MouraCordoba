@@ -37,37 +37,45 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         text-decoration: none;
         list-style-type: none;
-        font-family: Poppins;
+        font-family: 'Poppins', 'sans-serif';
         font-weight: 400;
         font-style: normal;
     }
 
+
     section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    div.wrapper {
         display: flex;
         width: 100%;
         max-width: 1200px;
-        @media (max-width: 1240px) {
-            padding: 0 30px;
+
+        @media (max-width: 1260px) {
+            padding: 50px 30px;
         }
     }
 
     p {
-        line-height: 16px;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
         color: var(--gray-100);
         @media (max-width: 768px) {
-            font-size: 14px;
-            line-height: 14px;
+            font-size: 16px;
         }
     }
 
-    h1 {
+    h1, h1 span {
         font-size: 36px;
         line-height: 36px;
         font-weight: 600;
 
-        @media (max-width: 1240px) {
+        @media (max-width: 1260px) {
             font-size: 30px;
             line-height: 30px;
         }

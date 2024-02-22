@@ -13,7 +13,7 @@ export const ButtonContainerStyled = styled.a`
     color: ${({ color }) => `var(--${color})`};
     border: none;
     border-radius: 4px;
-    font-weight: 400;
+    font-weight: 500;
     padding: 6px 16px;
     height: fit-content;
     user-select: none;
