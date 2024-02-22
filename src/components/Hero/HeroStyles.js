@@ -4,6 +4,9 @@ export const HeroContainerStyled = styled.section`
     background: linear-gradient(9.1deg, #254CAF 3.49%, #000E28 92.66%);
     position: relative;
     min-height: calc(100vh - 80px);
+    @media (max-width: 968px) {
+        min-height: auto;
+    }
 `
 
 export const HeroImageBackground = styled.div`
@@ -37,6 +40,14 @@ export const HeroWrapper = styled.div`
             width: 400px;
         }
     }
+
+    @media (max-width: 460px) {
+        flex-direction: column;
+        gap: 50px;
+        img {
+            width: 100%;
+        }
+    }
 `
 
 export const HeroText = styled.div`
@@ -52,6 +63,7 @@ export const HeroText = styled.div`
 
     p span {
         font-weight: 500;
+        color: var(--yellow);
     }
 `
 

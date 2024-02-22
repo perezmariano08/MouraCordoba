@@ -49,7 +49,7 @@ export const BenefitText = styled.div`
     }
 
     .benefit-description {
-        font-size: 13px;
-        font-weight: 300;
+        font-size: 14px;
+        font-weight: 400;
     }
 `

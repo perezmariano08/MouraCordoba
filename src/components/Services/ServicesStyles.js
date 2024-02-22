@@ -15,6 +15,7 @@ export const ServicesWrapper = styled.div`
         color: var(--white);
     }
     p span{
-        font-weight: 600;
+        font-weight: 500;
+        color: var(--yellow);
     }
 `
