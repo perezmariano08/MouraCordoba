@@ -1,7 +1,7 @@
 import React from 'react'
 import { FooterBrand, FooterContact, FooterContactItem, FooterContainerStyled, FooterCopyright, FooterDivider, FooterHeadWrapper, FooterWrapper } from './FooterStyles'
 import logoMoura from '/moura_.webp'
-import { FaEnvelope, FaPhone, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
+import { FaPhone, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -14,17 +14,17 @@ const Footer = () => {
                     </FooterBrand>
                     <FooterContact>
                         <span>Contacto</span>
-                        <FooterContactItem>
+                        <FooterContactItem target='_blank' href='https://walink.co/4c9274'>
                             <FaWhatsapp />
-                            3517894561
+                            Comunicate por WhatsApp
                         </FooterContactItem>
-                        <FooterContactItem>
+                        <FooterContactItem href='mailto:ventas@mouracordoba.com'>
                             <FaRegEnvelope />
                             ventas@mouracordoba.com
                         </FooterContactItem>
-                        <FooterContactItem>
+                        <FooterContactItem target='_blank' href='tel:3516363001'>
                             <FaPhone />
-                            3517894561
+                            3516363001
                         </FooterContactItem>
                     </FooterContact>
                 </FooterHeadWrapper>
