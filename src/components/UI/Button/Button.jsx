@@ -7,6 +7,7 @@ const Button = ({
         color = 'blue',
         href,
         target,
+        border,
     }) => {
     return (
         <ButtonContainerStyled
@@ -14,6 +15,7 @@ const Button = ({
             color={color}
             href={href}
             target={target}
+            border={border}
         >
             {children}
         </ButtonContainerStyled>

@@ -4,9 +4,12 @@ export const GlobalStyles = createGlobalStyle`
     :root {
         --yellow: #ffbf3c;
         --blue: #00205C;
+        --blue-light: #254CAF;
         --green: #46B450;
+        --text: #515C75;
         /* Gray Scale */
         --white: #fafafa;
+        --gray: #E2E8F0;
         --gray-100: #e9ebed;
         --gray-200: #CACDD2;
         --gray-300: #9FA4A9;
@@ -54,8 +57,8 @@ export const GlobalStyles = createGlobalStyle`
     div.wrapper {
         display: flex;
         width: 100%;
-        max-width: 1200px;
-
+        max-width: 1260px;
+        padding: 80px 30px;
         @media (max-width: 1260px) {
             padding: 50px 30px;
         }
@@ -63,7 +66,7 @@ export const GlobalStyles = createGlobalStyle`
 
     p {
         font-size: 18px;
-        font-weight: 300;
+        font-weight: 400;
         color: var(--gray-100);
         @media (max-width: 768px) {
             font-size: 16px;
@@ -81,7 +84,7 @@ export const GlobalStyles = createGlobalStyle`
         }
     }
     
-    h2 {
+    h2, h2 span {
         font-size: 30px;
         line-height: 30px;
         font-weight: 600;

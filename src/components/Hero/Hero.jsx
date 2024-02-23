@@ -3,6 +3,7 @@ import { HeroButtons, HeroContainerStyled, HeroImageBackground, HeroText, HeroWr
 import Button from '../UI/Button/Button'
 import BateriaMoura from '/bg-autos-livianos.png'
 import { FaPhone, FaWhatsapp } from 'react-icons/fa'
+import { LuPhoneForwarded } from 'react-icons/lu'
 
 const Hero = () => {
     return (
@@ -17,6 +18,10 @@ const Hero = () => {
                             <FaWhatsapp/>
                             ¡WhatsApp!
                         </Button>
+                        <Button border={"yellow"} background='transparent' color='yellow' target="_blank" href="tel:3516363001">
+                        <LuPhoneForwarded />
+                        ¡LLAMANOS!
+                    </Button>
                     </HeroButtons>
                 </HeroText>
                 <img src={BateriaMoura}/>

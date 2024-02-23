@@ -2,7 +2,7 @@ import React from 'react'
 import { NavbarAction, NavbarContainerStyled, NavbarList, NavbarLogo, NavbarWrapper } from './NavbarStyles'
 import LogoMoura from '/LogoMouraArgentina.png'
 import Button from '../UI/Button/Button'
-import { FaWhatsapp } from "react-icons/fa";
+import { LuPhoneForwarded } from "react-icons/lu";
 
 const Navbar = () => {
     return (
@@ -12,9 +12,9 @@ const Navbar = () => {
                     <img src={LogoMoura} alt="Logo Moura"/>
                 </NavbarLogo>
                 <NavbarAction>
-                    <Button target={"_blank"} href="https://walink.co/4c9274">
-                        <FaWhatsapp/>
-                        3516363001
+                    <Button border={"yellow"} background='transparent' color='yellow' target="_blank" href="tel:3516363001">
+                        <LuPhoneForwarded />
+                        COMUNICARSE CON UN REPRESENTANTE
                     </Button>
                 </NavbarAction>
             </NavbarWrapper>

@@ -11,7 +11,7 @@ export const ButtonContainerStyled = styled.a`
     font-size: 16px;
     background: ${({ background }) => `var(--${background})`};    
     color: ${({ color }) => `var(--${color})`};
-    border: none;
+    border: 1px solid ${({ border }) => `var(--${border})`};
     border-radius: 4px;
     font-weight: 500;
     padding: 6px 16px;

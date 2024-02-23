@@ -54,4 +54,10 @@ export const NavbarList = styled.ul`
 
 export const NavbarAction = styled.div`
     display: flex;
+
+    & a {
+        @media screen and (max-width: 780px) {
+            display: none;
+        }
+    }
 `

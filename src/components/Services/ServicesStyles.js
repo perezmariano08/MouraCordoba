@@ -4,7 +4,7 @@ export const ServicesContainerStyled = styled.section`
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: var(--blue);
+    background-color: var(--yellow);
 `
 
 export const ServicesWrapper = styled.div`
@@ -12,10 +12,13 @@ export const ServicesWrapper = styled.div`
     flex-direction: column;
     gap: 20px;
     h2 {
-        color: var(--white);
+        color: var(--blue);
+    }
+    p {
+        color: var(--blue);
     }
     p span{
-        font-weight: 500;
-        color: var(--yellow);
+        font-weight: 600;
+        color: var(--blue);
     }
 `

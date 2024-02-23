@@ -26,7 +26,7 @@ export const HeroImageBackground = styled.div`
 
 export const HeroWrapper = styled.div`
     gap: 35px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     z-index: 1;
     img {
@@ -56,6 +56,7 @@ export const HeroText = styled.div`
     flex-direction: column;
     gap: 20px;
     text-align: start;
+    max-width: 660px;
 
     h1 span {
         color: var(--yellow);
